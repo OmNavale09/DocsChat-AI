@@ -1,0 +1,52 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Flask
+instance/
+*.log
+
+# Uploaded documents
+uploads/
+*.docx
+*.doc
+
+# ChromaDB / Vector database
+chroma_langchain_db/
+chroma_db/
+chroma_data/
+
+# React / Node
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
